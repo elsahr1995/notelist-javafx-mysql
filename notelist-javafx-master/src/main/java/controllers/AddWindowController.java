@@ -45,13 +45,5 @@ public class AddWindowController implements Initializable {
         Controller.value.add(note);
 
         Controller.stage.close();
-
-        HashMap<Long, Long> longToLong = new HashMap<>();
-    }
-
-
-    private void refresh() {
-        datePicker.setValue(LocalDate.now());
-        descriptionTextField.setText(null);
     }
 }
